@@ -10,7 +10,7 @@ case $empCheck in
 		workHrs=8
 	;;
 	$IS_PART_TIME)
-		workHrs=0
+		workHrs=4
 	;;
 	*)
 		workHrs=0
