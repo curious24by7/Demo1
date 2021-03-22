@@ -3,7 +3,7 @@
 echo Enter power of 2 n
 read n
 
-for (( power=1; power<=n; power++ ))
+for (( i=1; i<=n; i++ ))
 do
-	echo "2^n"
+	echo=$[ 2**$i ]
 done
